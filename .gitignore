@@ -1,0 +1,24 @@
+# Environment configuration
+.env
+
+# Private cryptographic keys and certificates
+storage/keys/*.key
+storage/keys/*.pem
+storage/keys/*.bin
+!storage/keys/.gitkeep
+
+# Uploaded encrypted files
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Database backup dumps
+storage/backups/*
+!storage/backups/.gitkeep
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
